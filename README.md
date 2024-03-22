@@ -18,7 +18,7 @@ Execute `ng serve` para rodar o servidor de desenvolvimento e navega até http:/
 
 ## Servidor de Teste
 
-Utilize o servidor de [Teste]() para uma demonstração.
+Utilize o servidor de [Demonstração](http://afrontendapp.s3-website.us-east-2.amazonaws.com) para acesso a aplicação.
 
 ## TODO
 

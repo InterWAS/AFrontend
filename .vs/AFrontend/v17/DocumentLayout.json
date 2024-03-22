@@ -3,7 +3,11 @@
   "WorkspaceRootPath": "D:\\Wendel\\Source\\Repos\\AFrontend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A5C2A5EF-79D3-49F7-B273-2C8BA05825D2}|AFrontend.esproj|D:\\Wendel\\Source\\Repos\\AFrontend\\src\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{A5C2A5EF-79D3-49F7-B273-2C8BA05825D2}|AFrontend.esproj|D:\\Wendel\\Source\\Repos\\AFrontend\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{A5C2A5EF-79D3-49F7-B273-2C8BA05825D2}|AFrontend.esproj|solutionrelative:readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5C2A5EF-79D3-49F7-B273-2C8BA05825D2}|AFrontend.esproj|d:\\wendel\\source\\repos\\afrontend\\src\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A5C2A5EF-79D3-49F7-B273-2C8BA05825D2}|AFrontend.esproj|solutionrelative:src\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
@@ -15,7 +19,7 @@
       "RelativeMoniker": "D:0:0:{A5C2A5EF-79D3-49F7-B273-2C8BA05825D2}|AFrontend.esproj|solutionrelative:src\\app\\home\\home.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A5C2A5EF-79D3-49F7-B273-2C8BA05825D2}|AFrontend.esproj|d:\\wendel\\source\\repos\\afrontend\\src\\app\\item-location\\item-location.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "AbsoluteMoniker": "D:0:0:{A5C2A5EF-79D3-49F7-B273-2C8BA05825D2}|AFrontend.esproj|D:\\Wendel\\Source\\Repos\\AFrontend\\src\\app\\item-location\\item-location.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
       "RelativeMoniker": "D:0:0:{A5C2A5EF-79D3-49F7-B273-2C8BA05825D2}|AFrontend.esproj|solutionrelative:src\\app\\item-location\\item-location.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
     },
     {
@@ -27,7 +31,7 @@
       "RelativeMoniker": "D:0:0:{A5C2A5EF-79D3-49F7-B273-2C8BA05825D2}|AFrontend.esproj|solutionrelative:src\\app\\app.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A5C2A5EF-79D3-49F7-B273-2C8BA05825D2}|AFrontend.esproj|d:\\wendel\\source\\repos\\afrontend\\src\\app\\app.component.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "AbsoluteMoniker": "D:0:0:{A5C2A5EF-79D3-49F7-B273-2C8BA05825D2}|AFrontend.esproj|D:\\Wendel\\Source\\Repos\\AFrontend\\src\\app\\app.component.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{A5C2A5EF-79D3-49F7-B273-2C8BA05825D2}|AFrontend.esproj|solutionrelative:src\\app\\app.component.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
@@ -49,10 +53,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A5C2A5EF-79D3-49F7-B273-2C8BA05825D2}|AFrontend.esproj|D:\\Wendel\\Source\\Repos\\AFrontend\\src\\app\\itemlocation.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
       "RelativeMoniker": "D:0:0:{A5C2A5EF-79D3-49F7-B273-2C8BA05825D2}|AFrontend.esproj|solutionrelative:src\\app\\itemlocation.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A5C2A5EF-79D3-49F7-B273-2C8BA05825D2}|AFrontend.esproj|D:\\Wendel\\Source\\Repos\\AFrontend\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
-      "RelativeMoniker": "D:0:0:{A5C2A5EF-79D3-49F7-B273-2C8BA05825D2}|AFrontend.esproj|solutionrelative:readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A5C2A5EF-79D3-49F7-B273-2C8BA05825D2}|AFrontend.esproj|D:\\Wendel\\Source\\Repos\\AFrontend\\src\\app\\home\\home.component.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
@@ -78,24 +78,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 0,
               "Title": "README.md",
               "DocumentMoniker": "D:\\Wendel\\Source\\Repos\\AFrontend\\README.md",
               "RelativeDocumentMoniker": "README.md",
               "ToolTip": "D:\\Wendel\\Source\\Repos\\AFrontend\\README.md",
               "RelativeToolTip": "README.md",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
               "WhenOpened": "2024-03-22T12:17:09.904Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "itemlocation.ts",
               "DocumentMoniker": "D:\\Wendel\\Source\\Repos\\AFrontend\\src\\app\\itemlocation.ts",
               "RelativeDocumentMoniker": "src\\app\\itemlocation.ts",
@@ -103,12 +103,11 @@
               "RelativeToolTip": "src\\app\\itemlocation.ts",
               "ViewState": "AQIAAAAAAAAAAAAAAAA6wAEAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2024-03-21T00:57:24.489Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-21T00:57:24.489Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "app.component.ts",
               "DocumentMoniker": "D:\\Wendel\\Source\\Repos\\AFrontend\\src\\app\\app.component.ts",
               "RelativeDocumentMoniker": "src\\app\\app.component.ts",
@@ -116,12 +115,11 @@
               "RelativeToolTip": "src\\app\\app.component.ts",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2024-03-20T23:01:33.248Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-20T23:01:33.248Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "app.component.html",
               "DocumentMoniker": "D:\\Wendel\\Source\\Repos\\AFrontend\\src\\app\\app.component.html",
               "RelativeDocumentMoniker": "src\\app\\app.component.html",
@@ -129,12 +127,11 @@
               "RelativeToolTip": "src\\app\\app.component.html",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-03-20T23:01:46.745Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-20T23:01:46.745Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "item-location.component.css",
               "DocumentMoniker": "D:\\Wendel\\Source\\Repos\\AFrontend\\src\\app\\item-location\\item-location.component.css",
               "RelativeDocumentMoniker": "src\\app\\item-location\\item-location.component.css",
@@ -142,12 +139,11 @@
               "RelativeToolTip": "src\\app\\item-location\\item-location.component.css",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-03-22T12:49:27.261Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-22T12:49:27.261Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "item-location.component.ts",
               "DocumentMoniker": "D:\\Wendel\\Source\\Repos\\AFrontend\\src\\app\\item-location\\item-location.component.ts",
               "RelativeDocumentMoniker": "src\\app\\item-location\\item-location.component.ts",
@@ -155,12 +151,11 @@
               "RelativeToolTip": "src\\app\\item-location\\item-location.component.ts",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAABpAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2024-03-21T01:07:57.795Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-21T01:07:57.795Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "home.component.ts",
               "DocumentMoniker": "D:\\Wendel\\Source\\Repos\\AFrontend\\src\\app\\home\\home.component.ts",
               "RelativeDocumentMoniker": "src\\app\\home\\home.component.ts",
@@ -168,12 +163,11 @@
               "RelativeToolTip": "src\\app\\home\\home.component.ts",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAHAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2024-03-20T23:33:26.097Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-20T23:33:26.097Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "details.component.ts",
               "DocumentMoniker": "D:\\Wendel\\Source\\Repos\\AFrontend\\src\\app\\details\\details.component.ts",
               "RelativeDocumentMoniker": "src\\app\\details\\details.component.ts",
@@ -181,12 +175,11 @@
               "RelativeToolTip": "src\\app\\details\\details.component.ts",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2024-03-21T02:04:21.797Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-21T02:04:21.797Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "index.html",
               "DocumentMoniker": "D:\\Wendel\\Source\\Repos\\AFrontend\\src\\index.html",
               "RelativeDocumentMoniker": "src\\index.html",
@@ -199,7 +192,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "item.service.ts",
               "DocumentMoniker": "D:\\Wendel\\Source\\Repos\\AFrontend\\src\\app\\item.service.ts",
               "RelativeDocumentMoniker": "src\\app\\item.service.ts",
@@ -207,8 +200,7 @@
               "RelativeToolTip": "src\\app\\item.service.ts",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2024-03-21T01:36:09.429Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-21T01:36:09.429Z"
             },
             {
               "$type": "Document",
@@ -220,12 +212,11 @@
               "RelativeToolTip": "src\\app\\details\\details.component.css",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-03-22T12:36:27.243Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-22T12:36:27.243Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "app.module.ts",
               "DocumentMoniker": "D:\\Wendel\\Source\\Repos\\AFrontend\\src\\app\\app.module.ts",
               "RelativeDocumentMoniker": "src\\app\\app.module.ts",
@@ -233,12 +224,11 @@
               "RelativeToolTip": "src\\app\\app.module.ts",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2024-03-20T23:28:58.854Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-20T23:28:58.854Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "app-routing.module.ts",
               "DocumentMoniker": "D:\\Wendel\\Source\\Repos\\AFrontend\\src\\app\\app-routing.module.ts",
               "RelativeDocumentMoniker": "src\\app\\app-routing.module.ts",
@@ -246,12 +236,11 @@
               "RelativeToolTip": "src\\app\\app-routing.module.ts",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2024-03-21T01:50:07.902Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-21T01:50:07.902Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "app.component.css",
               "DocumentMoniker": "D:\\Wendel\\Source\\Repos\\AFrontend\\src\\app\\app.component.css",
               "RelativeDocumentMoniker": "src\\app\\app.component.css",
@@ -259,8 +248,7 @@
               "RelativeToolTip": "src\\app\\app.component.css",
               "ViewState": "AQIAAGQAAAAAAAAAAAAkwI4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-03-22T18:46:01.643Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-22T18:46:01.643Z"
             },
             {
               "$type": "Document",
@@ -272,8 +260,7 @@
               "RelativeToolTip": "src\\app\\home\\home.component.css",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-03-21T01:19:33.608Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-21T01:19:33.608Z"
             },
             {
               "$type": "Document",
@@ -285,8 +272,7 @@
               "RelativeToolTip": "src\\main.ts",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2024-03-20T22:59:02.336Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-20T22:59:02.336Z"
             },
             {
               "$type": "Document",
@@ -298,8 +284,7 @@
               "RelativeToolTip": "src\\styles.css",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-03-20T22:58:57.869Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-20T22:58:57.869Z"
             }
           ]
         }
