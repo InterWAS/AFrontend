@@ -56,6 +56,7 @@ export class HomeComponent {
 
   // Rotina para filtrar os resultados
   filterResults(text: string) {
+    // Volta para a primeira página caso mude o filtro e não está na primeira página
     if (this.currentPage > 0) {
       if (this.ultimoFiltro != text) {
         this.currentPage = 0;
@@ -76,8 +77,7 @@ export class HomeComponent {
     this.filteredItemList = this.itemLocationList.filter(
       itemLocation => itemLocation?.id.toString().includes(text.toLowerCase()) || itemLocation?.title.includes(text.toLowerCase())
     );
-    // Reseta a paginação após a filtragem
-    //this.currentPage = 0;
+    // Carrega o total de itens e faz paginação
     this.totalItems = this.filteredItemList.length;
     this.paginate();
   }
@@ -87,9 +87,6 @@ export class HomeComponent {
     this.currentPage = event.pageIndex;
     // Recarrega lista de filtrados
     this.filterResults(this.ultimoFiltro);
-    //this.filteredItemList = this.itemLocationList;
-    // Muda a página e atualiza
-    //this.paginate();
   }
 
   // Rotina para fazer a paginação 

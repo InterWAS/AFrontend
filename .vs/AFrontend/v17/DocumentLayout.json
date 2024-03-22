@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "D:\\Wendel\\Source\\Repos\\AFrontend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A5C2A5EF-79D3-49F7-B273-2C8BA05825D2}|AFrontend.esproj|D:\\Wendel\\Source\\Repos\\AFrontend\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "AbsoluteMoniker": "D:0:0:{A5C2A5EF-79D3-49F7-B273-2C8BA05825D2}|AFrontend.esproj|D:\\Wendel\\Source\\Repos\\AFrontend\\src\\app\\home\\home.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A5C2A5EF-79D3-49F7-B273-2C8BA05825D2}|AFrontend.esproj|solutionrelative:src\\app\\home\\home.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5C2A5EF-79D3-49F7-B273-2C8BA05825D2}|AFrontend.esproj|d:\\wendel\\source\\repos\\afrontend\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
       "RelativeMoniker": "D:0:0:{A5C2A5EF-79D3-49F7-B273-2C8BA05825D2}|AFrontend.esproj|solutionrelative:readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A5C2A5EF-79D3-49F7-B273-2C8BA05825D2}|AFrontend.esproj|d:\\wendel\\source\\repos\\afrontend\\src\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{A5C2A5EF-79D3-49F7-B273-2C8BA05825D2}|AFrontend.esproj|D:\\Wendel\\Source\\Repos\\AFrontend\\src\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A5C2A5EF-79D3-49F7-B273-2C8BA05825D2}|AFrontend.esproj|solutionrelative:src\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A5C2A5EF-79D3-49F7-B273-2C8BA05825D2}|AFrontend.esproj|D:\\Wendel\\Source\\Repos\\AFrontend\\src\\app\\details\\details.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
       "RelativeMoniker": "D:0:0:{A5C2A5EF-79D3-49F7-B273-2C8BA05825D2}|AFrontend.esproj|solutionrelative:src\\app\\details\\details.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A5C2A5EF-79D3-49F7-B273-2C8BA05825D2}|AFrontend.esproj|D:\\Wendel\\Source\\Repos\\AFrontend\\src\\app\\home\\home.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{A5C2A5EF-79D3-49F7-B273-2C8BA05825D2}|AFrontend.esproj|solutionrelative:src\\app\\home\\home.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A5C2A5EF-79D3-49F7-B273-2C8BA05825D2}|AFrontend.esproj|D:\\Wendel\\Source\\Repos\\AFrontend\\src\\app\\item-location\\item-location.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
@@ -78,11 +78,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "README.md",
               "DocumentMoniker": "D:\\Wendel\\Source\\Repos\\AFrontend\\README.md",
               "RelativeDocumentMoniker": "README.md",
@@ -155,19 +155,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "home.component.ts",
               "DocumentMoniker": "D:\\Wendel\\Source\\Repos\\AFrontend\\src\\app\\home\\home.component.ts",
               "RelativeDocumentMoniker": "src\\app\\home\\home.component.ts",
               "ToolTip": "D:\\Wendel\\Source\\Repos\\AFrontend\\src\\app\\home\\home.component.ts",
               "RelativeToolTip": "src\\app\\home\\home.component.ts",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAHAAAAAAAAAA",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAcwE0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2024-03-20T23:33:26.097Z"
+              "WhenOpened": "2024-03-20T23:33:26.097Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "details.component.ts",
               "DocumentMoniker": "D:\\Wendel\\Source\\Repos\\AFrontend\\src\\app\\details\\details.component.ts",
               "RelativeDocumentMoniker": "src\\app\\details\\details.component.ts",
@@ -179,7 +180,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "index.html",
               "DocumentMoniker": "D:\\Wendel\\Source\\Repos\\AFrontend\\src\\index.html",
               "RelativeDocumentMoniker": "src\\index.html",
@@ -187,8 +188,7 @@
               "RelativeToolTip": "src\\index.html",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-03-20T22:58:52.23Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-20T22:58:52.23Z"
             },
             {
               "$type": "Document",
