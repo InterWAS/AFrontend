@@ -1,9 +1,12 @@
+section {
+  padding: 1rem;
+}
+
 .results {
   display: grid;
   column-gap: 14px;
   row-gap: 14px;
   grid-template-columns: repeat(auto-fill, minmax(150px, 150px));
-  margin-top: 50px;
   justify-content: space-around;
 }
 
