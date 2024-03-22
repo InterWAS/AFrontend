@@ -4,6 +4,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './home/home.component';
 import { DetailsComponent } from './details/details.component';
 
+// Apenas duas rotas, a pagina inicial e os detalhes
 const routes: Routes = [
   {
     path: '',
@@ -13,7 +14,7 @@ const routes: Routes = [
   {
     path: 'details/:id',
     component: DetailsComponent,
-    title: 'Item details'
+    title: 'Detalhes'
   }
 ];
 

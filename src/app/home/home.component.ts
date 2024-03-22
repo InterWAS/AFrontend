@@ -43,6 +43,7 @@ export class HomeComponent {
   value = '';
   selected = 'id';
   ascendingOrder = true;
+  ultimoFiltro = '';
 
   constructor() {
     // Carrega todos os itens e faz a paginação inicial
@@ -55,8 +56,17 @@ export class HomeComponent {
 
   // Rotina para filtrar os resultados
   filterResults(text: string) {
+    if (this.currentPage > 0) {
+      if (this.ultimoFiltro != text) {
+        this.currentPage = 0;
+      }
+    }
+    // Salva último
+    this.ultimoFiltro = text;
+
     // Se estiver em branco mostra todos
     if (!text) {
+      this.filteredItemList = this.itemLocationList;
       this.totalItems = this.defaultTotalItems;
       this.paginate();
       return;
@@ -67,22 +77,25 @@ export class HomeComponent {
       itemLocation => itemLocation?.id.toString().includes(text.toLowerCase()) || itemLocation?.title.includes(text.toLowerCase())
     );
     // Reseta a paginação após a filtragem
-    this.currentPage = 0;
+    //this.currentPage = 0;
     this.totalItems = this.filteredItemList.length;
     this.paginate();
   }
 
   // Evento invocado pelo componente de paginação
   pageChanged(event: PageEvent) {
-    // Muda a página e atualiza
     this.currentPage = event.pageIndex;
-    this.paginate();
+    // Recarrega lista de filtrados
+    this.filterResults(this.ultimoFiltro);
+    //this.filteredItemList = this.itemLocationList;
+    // Muda a página e atualiza
+    //this.paginate();
   }
 
   // Rotina para fazer a paginação 
   paginate() {
     // TODO: Ordenar por ID ou Titulo
-    this.sortByField(this.value);
+    // this.sortByField(this.value);
     // Faz a paginação recortando da lista
     this.filteredItemList = this.filteredItemList.slice(this.currentPage * this.pageSize, ((this.currentPage + 1) * this.pageSize) - 1);
   }

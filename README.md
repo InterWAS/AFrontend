@@ -20,3 +20,8 @@ Execute `ng serve` para rodar o servidor de desenvolvimento e navega até http:/
 
 Utilize o servidor de [Teste]() para uma demonstração.
 
+## TODO
+
+- Ordenação por campos
+- Salvar itens no carrinho
+

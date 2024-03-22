@@ -9,30 +9,18 @@ import { FormControl, FormGroup } from '@angular/forms';
   template: `
   <article>
     <img class="listing-photo" [src]="itemLocation?.url"
-      alt="Photo of {{itemLocation?.title}}"/>
-    <section class="listing-description">
-      <h2 class="listing-heading">{{itemLocation?.title}}</h2>
-      <p class="listing-location">{{itemLocation?.id}}, {{itemLocation?.albumId}}</p>
-    </section>
-    <section class="listing-features">
-      <h2 class="section-heading">About this item</h2>
-      <ul>
-        <li>Units available: 0</li>
-        <li>Value: 0.00</li>
-      </ul>
-    </section>
-    <section class="listing-apply">
-      <h2 class="section-heading">Buy now</h2>
-      <form [formGroup]="buyForm" (submit)="submitBuy()">
-        <label for="quantity">Quantity</label>
-        <input id="quantity" type="text" formControlName="quantity">
-        <button type="submit" class="primary">Buy</button>
-      </form>
+      alt="Imagem de {{itemLocation?.title}}"/>
+    <section class="listing-description" style="padding: 0px 0px 0 20px;">
+      <h3 class="listing-heading">{{itemLocation?.title}}</h3>
+      <p class="listing-location">ID-{{itemLocation?.albumId}}-{{itemLocation?.id}}</p>
+      <a [routerLink]="['/']" style="margin: 0 0 0px;">Voltar</a>
     </section>
   </article>
   `,
   styleUrl: './details.component.css'
 })
+
+// TODO: Implantar um service para salvar dados do carrinho in memory 
 export class DetailsComponent {
   route: ActivatedRoute = inject(ActivatedRoute);
   itemService = inject(ItemService);
@@ -40,12 +28,15 @@ export class DetailsComponent {
   buyForm = new FormGroup({
     quantity: new FormControl(0)
   });
+
   constructor() {
     const itemLocationId = parseInt(this.route.snapshot.params['id'], 10);
     this.itemService.getItemLocationById(itemLocationId).then(itemLocation => {
       this.itemLocation = itemLocation;
     });
   }
+
+  // TODO: Implantar salvar no carrinho
   submitBuy() {
     this.itemService.submitBuy(
       this.buyForm.value.quantity ?? 0

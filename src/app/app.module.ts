@@ -21,6 +21,8 @@ import { HomeComponent } from './home/home.component';
 import { ItemLocationComponent } from './item-location/item-location.component';
 import { DetailsComponent } from './details/details.component';
 
+// TODO: Remover componentes não utilizados
+
 @NgModule({
   declarations: [
     AppComponent,
